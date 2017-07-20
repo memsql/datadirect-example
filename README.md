@@ -1,6 +1,10 @@
 Connecting to MemSQL using the Progress DataDirect MySQL JDBC Driver
 ====================================================================
 
+This is an example showing how to use the a common MySQL JDBC driver to connect
+to MemSQL.  This uses the DataDirect driver by Progress, which can be found on
+their website (https://www.progress.com/jdbc).
+
 This example assumes the following things:
 1. MemSQL is running on `localhost` and listening on port `3306`.
 2. The databases `test` and `test2` have already been created, but are otherwise
