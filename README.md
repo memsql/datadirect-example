@@ -1,9 +1,10 @@
-MemSQL Progress DataDirect MySQL JDBC Driver Example
-====================================================
+Connecting to MemSQL using the Progress DataDirect MySQL JDBC Driver
+====================================================================
 
 This example assumes the following things:
 1. MemSQL is running on `localhost` and listening on port `3306`.
-2. The database `test` has already been created, but is otherwise empty.
+2. The databases `test` and `test2` have already been created, but are otherwise
+   empty.
 3. The Progress DataDirect MySQL driver has been installed and the location of
    the `mysql.jar` file contained in its distribution has been added to the Java
    classpath.
