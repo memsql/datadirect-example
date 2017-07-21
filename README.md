@@ -1,9 +1,9 @@
 Connecting to MemSQL using the Progress DataDirect MySQL JDBC Driver
 ====================================================================
 
-This is an example showing how to use the a common MySQL JDBC driver to connect
-to MemSQL.  This uses the DataDirect driver by Progress, which can be found on
-their website (https://www.progress.com/jdbc).
+This is an example showing how to use the a common JDBC driver to connect to
+MemSQL.  This uses the DataDirect MySQL driver by Progress, which can be found
+on their website (https://www.progress.com/jdbc/mysql).
 
 This example assumes the following things:
 1. MemSQL is running on `localhost` and listening on port `3306`.
@@ -14,7 +14,8 @@ This example assumes the following things:
    classpath.
 4. There is a user named `root` with an empty password within MemSQL
 
-This example was created using Java 8.
+This example was created using OpenJDK 8 on Arch Linux.  No special JDBC
+parameters were required.
 
 Things that have been tested to work:
 * Select statements
